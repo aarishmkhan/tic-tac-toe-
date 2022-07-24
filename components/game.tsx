@@ -1,7 +1,7 @@
 import React, { useState} from "react"
 import Board from "./board";
 import { atom, useRecoilState } from "recoil";
-//import { userAgent } from "next/server";
+
 
 export default function Game() {
     function calculateWinner(boxesOnBoard: any) {
